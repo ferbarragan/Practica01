@@ -14,6 +14,19 @@
 		AA4604251CFE568100AADF38 /* Practica01.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = AA4604231CFE568100AADF38 /* Practica01.xcdatamodeld */; };
 		AA4604271CFE568100AADF38 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA4604261CFE568100AADF38 /* Assets.xcassets */; };
 		AA46042A1CFE568100AADF38 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA4604281CFE568100AADF38 /* LaunchScreen.storyboard */; };
+		AA46043E1CFE591500AADF38 /* Gus.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AA4604341CFE591500AADF38 /* Gus.jpg */; };
+		AA46043F1CFE591500AADF38 /* Hank.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AA4604351CFE591500AADF38 /* Hank.jpg */; };
+		AA4604401CFE591500AADF38 /* Jesse.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AA4604361CFE591500AADF38 /* Jesse.jpg */; };
+		AA4604411CFE591500AADF38 /* Jr.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AA4604371CFE591500AADF38 /* Jr.jpg */; };
+		AA4604421CFE591500AADF38 /* Lydia.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AA4604381CFE591500AADF38 /* Lydia.jpg */; };
+		AA4604431CFE591500AADF38 /* Mike.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AA4604391CFE591500AADF38 /* Mike.jpg */; };
+		AA4604441CFE591500AADF38 /* Saul.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AA46043A1CFE591500AADF38 /* Saul.jpg */; };
+		AA4604451CFE591500AADF38 /* Skyler.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AA46043B1CFE591500AADF38 /* Skyler.jpg */; };
+		AA4604461CFE591500AADF38 /* Todd.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = AA46043C1CFE591500AADF38 /* Todd.jpeg */; };
+		AA4604471CFE591500AADF38 /* Walter.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AA46043D1CFE591500AADF38 /* Walter.jpg */; };
+		AA4604491CFE5DD700AADF38 /* Logo.png in Resources */ = {isa = PBXBuildFile; fileRef = AA4604481CFE5DD700AADF38 /* Logo.png */; };
+		AA46044C1CFE62F100AADF38 /* correct.tiff in Resources */ = {isa = PBXBuildFile; fileRef = AA46044A1CFE62F100AADF38 /* correct.tiff */; };
+		AA46044D1CFE62F100AADF38 /* wrong.tiff in Resources */ = {isa = PBXBuildFile; fileRef = AA46044B1CFE62F100AADF38 /* wrong.tiff */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +41,19 @@
 		AA4604261CFE568100AADF38 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AA4604291CFE568100AADF38 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AA46042B1CFE568100AADF38 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AA4604341CFE591500AADF38 /* Gus.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Gus.jpg; sourceTree = "<group>"; };
+		AA4604351CFE591500AADF38 /* Hank.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Hank.jpg; sourceTree = "<group>"; };
+		AA4604361CFE591500AADF38 /* Jesse.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Jesse.jpg; sourceTree = "<group>"; };
+		AA4604371CFE591500AADF38 /* Jr.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Jr.jpg; sourceTree = "<group>"; };
+		AA4604381CFE591500AADF38 /* Lydia.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Lydia.jpg; sourceTree = "<group>"; };
+		AA4604391CFE591500AADF38 /* Mike.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Mike.jpg; sourceTree = "<group>"; };
+		AA46043A1CFE591500AADF38 /* Saul.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Saul.jpg; sourceTree = "<group>"; };
+		AA46043B1CFE591500AADF38 /* Skyler.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Skyler.jpg; sourceTree = "<group>"; };
+		AA46043C1CFE591500AADF38 /* Todd.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Todd.jpeg; sourceTree = "<group>"; };
+		AA46043D1CFE591500AADF38 /* Walter.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Walter.jpg; sourceTree = "<group>"; };
+		AA4604481CFE5DD700AADF38 /* Logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Logo.png; sourceTree = "<group>"; };
+		AA46044A1CFE62F100AADF38 /* correct.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = correct.tiff; sourceTree = "<group>"; };
+		AA46044B1CFE62F100AADF38 /* wrong.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = wrong.tiff; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,10 +86,9 @@
 		AA4604161CFE568100AADF38 /* Practica01 */ = {
 			isa = PBXGroup;
 			children = (
-				AA46041A1CFE568100AADF38 /* AppDelegate.h */,
-				AA46041B1CFE568100AADF38 /* AppDelegate.m */,
-				AA46041D1CFE568100AADF38 /* ViewController.h */,
-				AA46041E1CFE568100AADF38 /* ViewController.m */,
+				AA4604331CFE591500AADF38 /* images */,
+				AA4604321CFE57CB00AADF38 /* controllers */,
+				AA4604311CFE57C000AADF38 /* main */,
 				AA4604201CFE568100AADF38 /* Main.storyboard */,
 				AA4604261CFE568100AADF38 /* Assets.xcassets */,
 				AA4604281CFE568100AADF38 /* LaunchScreen.storyboard */,
@@ -80,6 +105,44 @@
 				AA4604181CFE568100AADF38 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AA4604311CFE57C000AADF38 /* main */ = {
+			isa = PBXGroup;
+			children = (
+				AA46041A1CFE568100AADF38 /* AppDelegate.h */,
+				AA46041B1CFE568100AADF38 /* AppDelegate.m */,
+			);
+			name = main;
+			sourceTree = "<group>";
+		};
+		AA4604321CFE57CB00AADF38 /* controllers */ = {
+			isa = PBXGroup;
+			children = (
+				AA46041D1CFE568100AADF38 /* ViewController.h */,
+				AA46041E1CFE568100AADF38 /* ViewController.m */,
+			);
+			name = controllers;
+			sourceTree = "<group>";
+		};
+		AA4604331CFE591500AADF38 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				AA46044A1CFE62F100AADF38 /* correct.tiff */,
+				AA46044B1CFE62F100AADF38 /* wrong.tiff */,
+				AA4604481CFE5DD700AADF38 /* Logo.png */,
+				AA4604341CFE591500AADF38 /* Gus.jpg */,
+				AA4604351CFE591500AADF38 /* Hank.jpg */,
+				AA4604361CFE591500AADF38 /* Jesse.jpg */,
+				AA4604371CFE591500AADF38 /* Jr.jpg */,
+				AA4604381CFE591500AADF38 /* Lydia.jpg */,
+				AA4604391CFE591500AADF38 /* Mike.jpg */,
+				AA46043A1CFE591500AADF38 /* Saul.jpg */,
+				AA46043B1CFE591500AADF38 /* Skyler.jpg */,
+				AA46043C1CFE591500AADF38 /* Todd.jpeg */,
+				AA46043D1CFE591500AADF38 /* Walter.jpg */,
+			);
+			path = images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,8 +202,21 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AA46044C1CFE62F100AADF38 /* correct.tiff in Resources */,
+				AA4604461CFE591500AADF38 /* Todd.jpeg in Resources */,
+				AA4604451CFE591500AADF38 /* Skyler.jpg in Resources */,
 				AA46042A1CFE568100AADF38 /* LaunchScreen.storyboard in Resources */,
+				AA46043E1CFE591500AADF38 /* Gus.jpg in Resources */,
+				AA4604441CFE591500AADF38 /* Saul.jpg in Resources */,
+				AA4604471CFE591500AADF38 /* Walter.jpg in Resources */,
+				AA4604431CFE591500AADF38 /* Mike.jpg in Resources */,
+				AA4604411CFE591500AADF38 /* Jr.jpg in Resources */,
+				AA4604491CFE5DD700AADF38 /* Logo.png in Resources */,
+				AA4604421CFE591500AADF38 /* Lydia.jpg in Resources */,
+				AA46043F1CFE591500AADF38 /* Hank.jpg in Resources */,
 				AA4604271CFE568100AADF38 /* Assets.xcassets in Resources */,
+				AA4604401CFE591500AADF38 /* Jesse.jpg in Resources */,
+				AA46044D1CFE62F100AADF38 /* wrong.tiff in Resources */,
 				AA4604221CFE568100AADF38 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -268,9 +344,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Practica01/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.barragan.Practica01;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -279,9 +357,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Practica01/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.barragan.Practica01;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
