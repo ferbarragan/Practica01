@@ -10,11 +10,11 @@
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="1150"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="1200"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" id="fGj-Ff-e87" userLabel="scrollView">
-                                <rect key="frame" x="0.0" y="0.0" width="320" height="1150"/>
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="1200"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <subviews>
                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Walter.jpg" id="jXO-s1-FVs">
@@ -67,6 +67,9 @@
                                         <state key="normal" title="Dead">
                                             <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                         </state>
+                                        <connections>
+                                            <action selector="walterDeadBtnPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="WwO-OY-rfb"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="SOp-3A-kCN" userLabel="walterLiveBtn">
                                         <rect key="frame" x="137" y="187" width="46" height="30"/>
@@ -74,6 +77,9 @@
                                         <state key="normal" title="Live">
                                             <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                         </state>
+                                        <connections>
+                                            <action selector="walterLiveBtnPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="mpN-uY-okB"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="9H9-dz-7af" userLabel="gusDeadBtn">
                                         <rect key="frame" x="209" y="286" width="46" height="30"/>
@@ -81,6 +87,9 @@
                                         <state key="normal" title="Dead">
                                             <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                         </state>
+                                        <connections>
+                                            <action selector="gusDeadBtnPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="gdp-ms-4rD"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="5u7-nr-eCO" userLabel="gusLiveBtn">
                                         <rect key="frame" x="137" y="286" width="46" height="30"/>
@@ -88,6 +97,9 @@
                                         <state key="normal" title="Live">
                                             <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                         </state>
+                                        <connections>
+                                            <action selector="gusLiveBtnPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="JPG-Br-Brt"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="C9u-V3-pZJ" userLabel="hankDeadBtn">
                                         <rect key="frame" x="209" y="385" width="46" height="30"/>
@@ -95,6 +107,9 @@
                                         <state key="normal" title="Dead">
                                             <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                         </state>
+                                        <connections>
+                                            <action selector="hankDeadBtnPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="5mU-8P-krN"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="PrC-dT-MPc" userLabel="hankLiveBtn">
                                         <rect key="frame" x="137" y="385" width="46" height="30"/>
@@ -102,6 +117,9 @@
                                         <state key="normal" title="Live">
                                             <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                         </state>
+                                        <connections>
+                                            <action selector="hankLiveBtnPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Nve-rV-R10"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="OyN-I0-njd" userLabel="lydiaDeadBtn">
                                         <rect key="frame" x="209" y="484" width="46" height="30"/>
@@ -109,6 +127,9 @@
                                         <state key="normal" title="Dead">
                                             <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                         </state>
+                                        <connections>
+                                            <action selector="lydiaDeadBtnPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="KNL-zA-gmn"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="qvw-2d-h30" userLabel="lydiaLiveBtn">
                                         <rect key="frame" x="137" y="484" width="46" height="30"/>
@@ -116,6 +137,9 @@
                                         <state key="normal" title="Live">
                                             <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                         </state>
+                                        <connections>
+                                            <action selector="lydiaLiveBtnPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="xSq-bJ-tbz"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="RvM-pz-5Da" userLabel="jrDeadBtn">
                                         <rect key="frame" x="209" y="583" width="46" height="30"/>
@@ -123,6 +147,9 @@
                                         <state key="normal" title="Dead">
                                             <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                         </state>
+                                        <connections>
+                                            <action selector="jrDeadBtnPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="GHG-g5-4sw"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="d8G-BI-INI" userLabel="jrLiveBtn">
                                         <rect key="frame" x="137" y="583" width="46" height="30"/>
@@ -130,6 +157,9 @@
                                         <state key="normal" title="Live">
                                             <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                         </state>
+                                        <connections>
+                                            <action selector="jrLiveBtnPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="0Uz-tH-Cln"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="vZC-5q-n7E" userLabel="jesseDeadBtn">
                                         <rect key="frame" x="209" y="681" width="46" height="30"/>
@@ -137,6 +167,9 @@
                                         <state key="normal" title="Dead">
                                             <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                         </state>
+                                        <connections>
+                                            <action selector="jesseDeadBtnPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="QoK-A0-3Xp"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="WwH-3D-723" userLabel="jesseLiveBtn">
                                         <rect key="frame" x="137" y="681" width="46" height="30"/>
@@ -144,6 +177,9 @@
                                         <state key="normal" title="Live">
                                             <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                         </state>
+                                        <connections>
+                                            <action selector="jesseLiveBtnPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="iSQ-eN-Nvb"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="v3T-Mv-O2S" userLabel="saulDeadBtn">
                                         <rect key="frame" x="209" y="780" width="46" height="30"/>
@@ -151,6 +187,9 @@
                                         <state key="normal" title="Dead">
                                             <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                         </state>
+                                        <connections>
+                                            <action selector="saulDeadBtnPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="EYf-Ou-PVN"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="KIA-fw-SfK" userLabel="saulLiveBtn">
                                         <rect key="frame" x="137" y="780" width="46" height="30"/>
@@ -158,6 +197,9 @@
                                         <state key="normal" title="Live">
                                             <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                         </state>
+                                        <connections>
+                                            <action selector="saulLiveBtnPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="5Ha-Po-QvN"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="zVZ-qp-rvt" userLabel="toddDeadBtn">
                                         <rect key="frame" x="209" y="879" width="46" height="30"/>
@@ -165,6 +207,9 @@
                                         <state key="normal" title="Dead">
                                             <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                         </state>
+                                        <connections>
+                                            <action selector="toddDeadBtnPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="kKg-2V-99J"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="T9r-Ig-gN9" userLabel="toddLiveBtn">
                                         <rect key="frame" x="137" y="879" width="46" height="30"/>
@@ -172,6 +217,9 @@
                                         <state key="normal" title="Live">
                                             <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                         </state>
+                                        <connections>
+                                            <action selector="toddLiveBtnPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="3UY-t9-BNz"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="Mkl-Ms-bWN" userLabel="mikeDeadBtn">
                                         <rect key="frame" x="209" y="978" width="46" height="30"/>
@@ -179,6 +227,9 @@
                                         <state key="normal" title="Dead">
                                             <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                         </state>
+                                        <connections>
+                                            <action selector="mikeDeadBtnPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="guf-t2-zDp"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="LOg-dQ-0dq" userLabel="mikeLiveBtn">
                                         <rect key="frame" x="137" y="978" width="46" height="30"/>
@@ -186,6 +237,9 @@
                                         <state key="normal" title="Live">
                                             <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                         </state>
+                                        <connections>
+                                            <action selector="mikeLiveBtnPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="OMA-dd-eLl"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="9pL-dC-uPI" userLabel="skylerDeadBtn">
                                         <rect key="frame" x="209" y="1077" width="46" height="30"/>
@@ -193,6 +247,9 @@
                                         <state key="normal" title="Dead">
                                             <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                         </state>
+                                        <connections>
+                                            <action selector="skylerDeadBtnPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="5RA-1c-qQN"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="OBS-iK-Yk7" userLabel="skylerLiveBtn">
                                         <rect key="frame" x="137" y="1077" width="46" height="30"/>
@@ -200,13 +257,16 @@
                                         <state key="normal" title="Live">
                                             <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                         </state>
+                                        <connections>
+                                            <action selector="skylerLiveBtnPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="bjp-Am-aOZ"/>
+                                        </connections>
                                     </button>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" id="h1p-pt-Plp" userLabel="gusImgCheck">
-                                        <rect key="frame" x="263" y="281" width="39" height="40"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                    </imageView>
                                     <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" id="aj3-qi-8HZ" userLabel="walterImgCheck">
                                         <rect key="frame" x="263" y="182" width="39" height="40"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" id="h1p-pt-Plp" userLabel="gusImgCheck">
+                                        <rect key="frame" x="263" y="281" width="39" height="40"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                     </imageView>
                                     <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" id="38W-AA-fnn" userLabel="hankImgCheck">
@@ -225,7 +285,7 @@
                                         <rect key="frame" x="263" y="676" width="39" height="40"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                     </imageView>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" id="QnZ-UJ-gSP" userLabel="SaulImgCheck">
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" id="QnZ-UJ-gSP" userLabel="saulImgCheck">
                                         <rect key="frame" x="263" y="775" width="39" height="40"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                     </imageView>
@@ -241,40 +301,106 @@
                                         <rect key="frame" x="263" y="1072" width="39" height="40"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                     </imageView>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" hasAttributedTitle="YES" id="K8T-Jd-FDy" userLabel="nextBtn">
+                                        <rect key="frame" x="228" y="1143" width="74" height="35"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <state key="normal">
+                                            <attributedString key="attributedTitle">
+                                                <fragment content="Next">
+                                                    <attributes>
+                                                        <font key="NSFont" size="19" name="HelveticaNeue"/>
+                                                    </attributes>
+                                                </fragment>
+                                            </attributedString>
+                                        </state>
+                                        <connections>
+                                            <segue destination="uaI-c4-Hez" kind="modal" id="vWI-GN-3Kb"/>
+                                        </connections>
+                                    </button>
                                 </subviews>
                             </scrollView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
                     <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
-                    <size key="freeformSize" width="320" height="1150"/>
+                    <size key="freeformSize" width="320" height="1200"/>
                     <connections>
                         <outlet property="gusDeadBtn" destination="9H9-dz-7af" id="Qtw-hs-cZg"/>
+                        <outlet property="gusImgCheck" destination="h1p-pt-Plp" id="nys-1S-4AV"/>
                         <outlet property="gusLiveBtn" destination="5u7-nr-eCO" id="urA-kB-3VB"/>
                         <outlet property="hankDeadBtn" destination="C9u-V3-pZJ" id="XXU-iG-qH0"/>
+                        <outlet property="hankImgCheck" destination="38W-AA-fnn" id="7dn-iB-jNy"/>
                         <outlet property="hankLiveBtn" destination="PrC-dT-MPc" id="5je-b7-QEF"/>
                         <outlet property="jesseDeadBtn" destination="vZC-5q-n7E" id="1qu-nZ-ezH"/>
+                        <outlet property="jesseImgCheck" destination="JfC-X1-esU" id="ISf-0M-T9f"/>
                         <outlet property="jesseLiveBtn" destination="WwH-3D-723" id="NeG-t0-d1y"/>
                         <outlet property="jrDeadBtn" destination="RvM-pz-5Da" id="bS6-Gh-F4G"/>
+                        <outlet property="jrImgCheck" destination="k75-ZF-Vte" id="Lll-NP-ho2"/>
                         <outlet property="jrLiveBtn" destination="d8G-BI-INI" id="oed-GG-L5H"/>
                         <outlet property="lydiaDeadBtn" destination="OyN-I0-njd" id="AaI-RO-4M6"/>
+                        <outlet property="lydiaImgCheck" destination="zNE-uo-eLP" id="dK4-08-QV5"/>
                         <outlet property="lydiaLiveBtn" destination="qvw-2d-h30" id="PJL-68-GQ4"/>
                         <outlet property="mikeDeadBtn" destination="Mkl-Ms-bWN" id="uxU-Kx-Hyy"/>
+                        <outlet property="mikeImgCheck" destination="keM-B2-HVV" id="W40-Da-7vQ"/>
                         <outlet property="mikeLiveBtn" destination="LOg-dQ-0dq" id="Be9-Ki-nfj"/>
+                        <outlet property="nextBtn" destination="K8T-Jd-FDy" id="NQo-cR-HeR"/>
                         <outlet property="saulDeadBtn" destination="v3T-Mv-O2S" id="TV9-c9-51b"/>
+                        <outlet property="saulImgCheck" destination="QnZ-UJ-gSP" id="AVv-NM-pKS"/>
                         <outlet property="saulLiveBtn" destination="KIA-fw-SfK" id="FgV-wT-Glx"/>
                         <outlet property="scrollView" destination="fGj-Ff-e87" id="fGD-QG-koB"/>
                         <outlet property="skylerDeadBtn" destination="9pL-dC-uPI" id="DsM-26-o3i"/>
+                        <outlet property="skylerImgCheck" destination="mHj-5W-FTh" id="VFQ-fs-CRx"/>
                         <outlet property="skylerLiveBtn" destination="OBS-iK-Yk7" id="Ula-Bs-lqD"/>
                         <outlet property="toddDeadBtn" destination="zVZ-qp-rvt" id="9MI-CX-w3i"/>
+                        <outlet property="toddImgCheck" destination="JPt-dV-HXI" id="UeN-sh-zNH"/>
                         <outlet property="toddLiveBtn" destination="T9r-Ig-gN9" id="8wG-0r-U4u"/>
                         <outlet property="walterDeadBtn" destination="7G6-RC-4E7" id="3ak-2w-Uqd"/>
+                        <outlet property="walterImgCheck" destination="aj3-qi-8HZ" id="7d8-67-ETH"/>
                         <outlet property="walterLiveBtn" destination="SOp-3A-kCN" id="yMG-i1-ir9"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="114" y="453"/>
+        </scene>
+        <!--View Controller2-->
+        <scene sceneID="MdA-Xj-qEp">
+            <objects>
+                <viewController id="uaI-c4-Hez" customClass="ViewController2" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="vCA-Id-xnY">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="VT0-uC-WDz" userLabel="msgLbl">
+                                <rect key="frame" x="20" y="141" width="280" height="151"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="27"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" id="b0X-x9-V8Q" userLabel="emotionImg">
+                                <rect key="frame" x="100" y="382" width="120" height="120"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="FPT-DX-vhd" userLabel="scoreLbl">
+                                <rect key="frame" x="20" y="36" width="280" height="21"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="24"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <connections>
+                        <outlet property="emotionImg" destination="b0X-x9-V8Q" id="7e0-G2-gbM"/>
+                        <outlet property="msgLbl" destination="VT0-uC-WDz" id="7Dp-Uw-21y"/>
+                        <outlet property="scoreLbl" destination="FPT-DX-vhd" id="bvm-Kx-tuY"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="A8Y-EZ-0Du" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="519" y="515"/>
         </scene>
     </scenes>
     <resources>

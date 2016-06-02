@@ -8,8 +8,11 @@
 
 #import <UIKit/UIKit.h>
 
+extern int correctAnswersCounter;
+
 @interface ViewController : UIViewController
 
+/* Outlets */
 @property (weak, nonatomic) IBOutlet UIScrollView *scrollView;
 
 @property (weak, nonatomic) IBOutlet UIButton *walterDeadBtn;
@@ -32,6 +35,42 @@
 @property (weak, nonatomic) IBOutlet UIButton *mikeLiveBtn;
 @property (weak, nonatomic) IBOutlet UIButton *skylerDeadBtn;
 @property (weak, nonatomic) IBOutlet UIButton *skylerLiveBtn;
+
+@property (weak, nonatomic) IBOutlet UIImageView *walterImgCheck;
+@property (weak, nonatomic) IBOutlet UIImageView *gusImgCheck;
+@property (weak, nonatomic) IBOutlet UIImageView *hankImgCheck;
+@property (weak, nonatomic) IBOutlet UIImageView *lydiaImgCheck;
+@property (weak, nonatomic) IBOutlet UIImageView *jrImgCheck;
+@property (weak, nonatomic) IBOutlet UIImageView *jesseImgCheck;
+@property (weak, nonatomic) IBOutlet UIImageView *saulImgCheck;
+@property (weak, nonatomic) IBOutlet UIImageView *toddImgCheck;
+@property (weak, nonatomic) IBOutlet UIImageView *mikeImgCheck;
+@property (weak, nonatomic) IBOutlet UIImageView *skylerImgCheck;
+
+@property (weak, nonatomic) IBOutlet UIButton *nextBtn;
+
+/* Actions */
+- (IBAction)walterDeadBtnPressed:(id)sender;
+- (IBAction)walterLiveBtnPressed:(id)sender;
+- (IBAction)gusDeadBtnPressed:(id)sender;
+- (IBAction)gusLiveBtnPressed:(id)sender;
+- (IBAction)hankDeadBtnPressed:(id)sender;
+- (IBAction)hankLiveBtnPressed:(id)sender;
+- (IBAction)lydiaDeadBtnPressed:(id)sender;
+- (IBAction)lydiaLiveBtnPressed:(id)sender;
+- (IBAction)jrDeadBtnPressed:(id)sender;
+- (IBAction)jrLiveBtnPressed:(id)sender;
+- (IBAction)jesseDeadBtnPressed:(id)sender;
+- (IBAction)jesseLiveBtnPressed:(id)sender;
+- (IBAction)saulDeadBtnPressed:(id)sender;
+- (IBAction)saulLiveBtnPressed:(id)sender;
+- (IBAction)toddDeadBtnPressed:(id)sender;
+- (IBAction)toddLiveBtnPressed:(id)sender;
+- (IBAction)mikeDeadBtnPressed:(id)sender;
+- (IBAction)mikeLiveBtnPressed:(id)sender;
+- (IBAction)skylerDeadBtnPressed:(id)sender;
+- (IBAction)skylerLiveBtnPressed:(id)sender;
+
 
 @end
 

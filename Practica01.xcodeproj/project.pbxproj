@@ -27,6 +27,10 @@
 		AA4604491CFE5DD700AADF38 /* Logo.png in Resources */ = {isa = PBXBuildFile; fileRef = AA4604481CFE5DD700AADF38 /* Logo.png */; };
 		AA46044C1CFE62F100AADF38 /* correct.tiff in Resources */ = {isa = PBXBuildFile; fileRef = AA46044A1CFE62F100AADF38 /* correct.tiff */; };
 		AA46044D1CFE62F100AADF38 /* wrong.tiff in Resources */ = {isa = PBXBuildFile; fileRef = AA46044B1CFE62F100AADF38 /* wrong.tiff */; };
+		AA4604511D00F3D500AADF38 /* coolFace.png in Resources */ = {isa = PBXBuildFile; fileRef = AA46044E1D00F3D500AADF38 /* coolFace.png */; };
+		AA4604521D00F3D500AADF38 /* neutralFace.png in Resources */ = {isa = PBXBuildFile; fileRef = AA46044F1D00F3D500AADF38 /* neutralFace.png */; };
+		AA4604531D00F3D500AADF38 /* sadFace.png in Resources */ = {isa = PBXBuildFile; fileRef = AA4604501D00F3D500AADF38 /* sadFace.png */; };
+		AA4604561D00F4B300AADF38 /* ViewController2.m in Sources */ = {isa = PBXBuildFile; fileRef = AA4604551D00F4B300AADF38 /* ViewController2.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -54,6 +58,11 @@
 		AA4604481CFE5DD700AADF38 /* Logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Logo.png; sourceTree = "<group>"; };
 		AA46044A1CFE62F100AADF38 /* correct.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = correct.tiff; sourceTree = "<group>"; };
 		AA46044B1CFE62F100AADF38 /* wrong.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = wrong.tiff; sourceTree = "<group>"; };
+		AA46044E1D00F3D500AADF38 /* coolFace.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = coolFace.png; sourceTree = "<group>"; };
+		AA46044F1D00F3D500AADF38 /* neutralFace.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = neutralFace.png; sourceTree = "<group>"; };
+		AA4604501D00F3D500AADF38 /* sadFace.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sadFace.png; sourceTree = "<group>"; };
+		AA4604541D00F4B300AADF38 /* ViewController2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController2.h; sourceTree = "<group>"; };
+		AA4604551D00F4B300AADF38 /* ViewController2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController2.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -121,6 +130,8 @@
 			children = (
 				AA46041D1CFE568100AADF38 /* ViewController.h */,
 				AA46041E1CFE568100AADF38 /* ViewController.m */,
+				AA4604541D00F4B300AADF38 /* ViewController2.h */,
+				AA4604551D00F4B300AADF38 /* ViewController2.m */,
 			);
 			name = controllers;
 			sourceTree = "<group>";
@@ -128,6 +139,9 @@
 		AA4604331CFE591500AADF38 /* images */ = {
 			isa = PBXGroup;
 			children = (
+				AA46044E1D00F3D500AADF38 /* coolFace.png */,
+				AA46044F1D00F3D500AADF38 /* neutralFace.png */,
+				AA4604501D00F3D500AADF38 /* sadFace.png */,
 				AA46044A1CFE62F100AADF38 /* correct.tiff */,
 				AA46044B1CFE62F100AADF38 /* wrong.tiff */,
 				AA4604481CFE5DD700AADF38 /* Logo.png */,
@@ -202,6 +216,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AA4604521D00F3D500AADF38 /* neutralFace.png in Resources */,
 				AA46044C1CFE62F100AADF38 /* correct.tiff in Resources */,
 				AA4604461CFE591500AADF38 /* Todd.jpeg in Resources */,
 				AA4604451CFE591500AADF38 /* Skyler.jpg in Resources */,
@@ -210,6 +225,7 @@
 				AA4604441CFE591500AADF38 /* Saul.jpg in Resources */,
 				AA4604471CFE591500AADF38 /* Walter.jpg in Resources */,
 				AA4604431CFE591500AADF38 /* Mike.jpg in Resources */,
+				AA4604531D00F3D500AADF38 /* sadFace.png in Resources */,
 				AA4604411CFE591500AADF38 /* Jr.jpg in Resources */,
 				AA4604491CFE5DD700AADF38 /* Logo.png in Resources */,
 				AA4604421CFE591500AADF38 /* Lydia.jpg in Resources */,
@@ -218,6 +234,7 @@
 				AA4604401CFE591500AADF38 /* Jesse.jpg in Resources */,
 				AA46044D1CFE62F100AADF38 /* wrong.tiff in Resources */,
 				AA4604221CFE568100AADF38 /* Main.storyboard in Resources */,
+				AA4604511D00F3D500AADF38 /* coolFace.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -230,6 +247,7 @@
 			files = (
 				AA46041F1CFE568100AADF38 /* ViewController.m in Sources */,
 				AA46041C1CFE568100AADF38 /* AppDelegate.m in Sources */,
+				AA4604561D00F4B300AADF38 /* ViewController2.m in Sources */,
 				AA4604191CFE568100AADF38 /* main.m in Sources */,
 				AA4604251CFE568100AADF38 /* Practica01.xcdatamodeld in Sources */,
 			);
